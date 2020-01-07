@@ -1,0 +1,185 @@
+/**
+ * Variables
+ * ----------------------------------------------------------------------------
+ */
+/* Colors */
+img#clipped-photo {
+    float: right;
+    width: 196px;
+    margin: -219px -40px 10px 10px; }
+
+article.post {
+    /* Custom green section headers */ }
+article.post h2 {
+    clear: both;
+    float: left;
+    background-color: #68b257;
+    color: #ffffff;
+    font-family: "Roboto Mono";
+    font-size: 20px;
+    font-weight: normal;
+    max-width: 75%;
+    margin: 24px 0 48px;
+    padding: 10px 30px;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word; }
+
+.entry-content {
+    clear: left; }
+.entry-content h3 {
+    margin-top: 0;
+    margin-bottom: 2px;
+    line-height: 24px;
+    font-size: 12px;
+    font-weight: normal;
+    font-family: "Roboto Mono";
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #68b257; }
+.entry-content h4 {
+    margin-top: 0;
+    margin-bottom: 2px;
+    line-height: 24px;
+    font-size: 12px;
+    font-weight: normal;
+    font-family: "Roboto Mono";
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: silver; }
+.entry-content ul {
+    list-style: none;
+    padding: 0; }
+
+/* a div or a li with an icon to the left */
+.heading-icon {
+    position: relative;
+    box-sizing: border-box;
+    padding-left: 22px; }
+.heading-icon:before {
+    content: "\eb44";
+    font-family: 'icomoon' !important;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    top: 1px;
+    left: 0;
+    position: absolute;
+    speak: none;
+    text-transform: none;
+    color: #68b257;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
+
+ul#skills li {
+    float: left;
+    width: 30%;
+    margin-right: 5%;
+    margin-bottom: 2em; }
+ul#skills li:nth-child(3n+1) {
+    clear: left; }
+ul#skills li:nth-child(3n) {
+    margin-right: 0; }
+ul#skills li p {
+    margin-bottom: 0; }
+ul#skills li#skills-languages:before {
+    content: "\ea80"; }
+ul#skills li#skills-frameworks:before {
+    content: "\e9a8"; }
+ul#skills li#skills-tools:before {
+    content: "\e996"; }
+ul#skills li#skills-storage:before {
+    content: "\e964"; }
+ul#skills li#skills-platforms:before {
+    content: "\e995"; }
+ul#skills li#skills-design:before {
+    content: "\eb37"; }
+
+ul#professional-experience > li .basics {
+    width: 35%;
+    margin-right: 2%;
+    float: left; }
+ul#professional-experience > li .basics .location:before {
+    content: "\eb10";
+    color: silver; }
+ul#professional-experience > li .basics .timeframe:before {
+    content: "\e953";
+    color: silver; }
+ul#professional-experience > li .details {
+    width: 63%;
+    float: left;
+    margin-bottom: 26px; }
+ul#professional-experience > li .details li:before {
+    content: "\eb46";
+    color: #666666; }
+ul#professional-experience > li .details .footnote {
+    margin-top: 0;
+    margin-bottom: 2px;
+    line-height: 24px;
+    font-size: 12px;
+    font-weight: normal;
+    font-family: "Roboto Mono";
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: silver; }
+ul#professional-experience > li .details .footnote:before {
+    content: "\e991";
+    color: silver; }
+ul#professional-experience > li:last-child .details {
+    margin-bottom: 0; }
+
+ul.timeline {
+    position: relative;
+    overflow: hidden; }
+ul.timeline:before {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    height: 100%;
+    width: 1px;
+    background: url(/images/resume/dotted.png); }
+ul.timeline > li {
+    clear: left;
+    overflow: hidden; }
+ul.timeline > li:before {
+    content: "\e916"; }
+ul.timeline > li:last-child {
+    margin-bottom: 0; }
+ul.timeline > li .location:before {
+    content: "\f0f7";
+    color: silver; }
+ul.timeline > li .timeframe:before {
+    content: "\f073";
+    color: silver; }
+
+ul#education .location:before {
+    content: "\e921";
+    color: silver; }
+ul#education .timeframe:before {
+    content: "\e953";
+    color: silver; }
+
+/* Mobile */
+@media only screen and (max-width: 640px) {
+    img#clipped-photo {
+        width: 160px;
+        margin-top: -181px; }
+
+    ul#skills li {
+        width: 48%;
+        margin-right: 2%;
+        margin-bottom: 1em; }
+    ul#skills li:nth-child(2n+1) {
+        clear: left; }
+    ul#skills li:nth-child(2n) {
+        margin-right: 0; }
+    ul#skills li:nth-child(3n+1) {
+        clear: none; }
+    ul#skills li:nth-child(3n) {
+        margin-right: 2%; } }
+@media only screen and (max-width: 480px) {
+    img#clipped-photo {
+        width: 150px;
+        margin-top: -110px;
+        margin-right: -12px; } }
